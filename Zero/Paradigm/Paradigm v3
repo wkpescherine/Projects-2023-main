@@ -1,0 +1,44 @@
+Zero Paradigm 
+____________________________________________________________________________________________
+Section 1:
+This is to help in designing Zero Website applications.
+
+Using a text editor we will be creating a document that will be used by the browser. But we will nto be using normal extensions for the document. When saving we will be using a new extension called .zero and this will be used when we look to parse.
+
+Zero basic structures that will be used:
+____________________________________________________________________________________________
+Section 1.1
+
+Zero;                               ****All zero files must contain this
+p(name,100,50, none);               ****p() indicate a new panel area **** name acts like class
+name(t("This is a string text"));   ****can now use name from abouve to fine its parent  ***t()text
+name(p(subName, 40,30, white));     ****same here as it shows it now has 2 subpanels
+name(p(subName, 40,30, white));     ****can have mutliple of the same name as it links to parent p()
+name(b("Enter", action{NULL}));     ****b() indicates button and action is what it can do
+
+____________________________________________________________________________________________
+Section 2:
+    Elements of every basic  zero:
+        p(group_name, width, height, color)
+            p - panel/section of the site
+            group_name - This is used to group all things together and called later for adding other lements to a                        particular group name or NULL
+            width - of the panel with an expected max width to be around 640
+            height - of the panel with an expected max height to be around 480
+            color - will take hex values in or NULL
+        t(string_text_in_here)
+            t - this is your main text format that can be left as this or added to a panel
+        i(img_file)
+            i - this will be used for getting the image file that will be used.
+        group_name(elemnet(params))
+            group_name - this will be pulled from the p and allows for nesting
+            element - is the p or t elelemnt that will be added to the given group_name
+            params = are the corresponding elemnt params that we have setup for the given elemnet
+____________________________________________________________________________________________
+
+Since sectiomns are linked by name files do not need to be linear in programming
+
+Handling color on the code Side we can try the following items
+
+Color myColor = Color.decode("#6365ff");
+ or
+Color redColor = new Color(255,0,0);

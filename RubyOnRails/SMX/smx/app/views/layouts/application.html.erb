@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Smx</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <link href="https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  #<style="background-image: url('/assets/msg.png'); background-repeat: no-repeat;  background-size: cover;"
+  #<style="background-image: url('/assets/msg.png; background-repeat: no-repeat;')">
+  <body style="background-image: url('/assets/msg2.png'); background-repeat: no-repeat;  background-size: cover;">
+    <%= yield %>
+  </body>
+</html>

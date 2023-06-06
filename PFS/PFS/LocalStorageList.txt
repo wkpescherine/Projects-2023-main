@@ -1,0 +1,9 @@
+'username'     - Main,CreateAccount,DashBoard
+'password'     - Main,CreateAccount
+'wealth'       - CreateAccount,DashBoard
+'status'       - CreateAccount
+'timeRate'     - CreateAccount
+'employment'   - CreateAccount,DashBoard
+'cashOnHand'   - CreateAccount,DashBoard,Bank
+'chaseAccount' - CreateAccount,Bank
+'boaAccount'   - CreateAccount,Bank

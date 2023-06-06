@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/chalkboard">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:gravity="center_horizontal"
+        android:text="PRIME"
+        android:textAlignment="center"
+        android:textColor="#ffa500"
+        android:textSize="80dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACADEMY"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:textColor="#ffa500"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Math Masters"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:textColor="#ffa500"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickToStart"
+        android:layout_gravity="center"
+        android:backgroundTint="#ffa500"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:textColor="#555"
+        android:text="Start" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="version 0.33.3"
+        android:textColor="#ffa500"
+        android:textSize="16dp"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:layout_marginTop="60dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Powered by WARP Technology"
+        android:textColor="#ffa500"
+        android:textSize="8dp"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        />
+
+</LinearLayout>

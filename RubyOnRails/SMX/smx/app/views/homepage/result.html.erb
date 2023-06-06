@@ -1,0 +1,17 @@
+<div style="text-align: center">
+    <h5>Results page for </h5>
+    </br>
+    <h5><%=@user1.username%> vs  <%=@user2.username%></h5>
+    </br>
+    <h5><%=@p1_1.full_name%>:<%=@p1[0]%>|<%=@p2[0]%>:<%=@p1_2%></br>
+    <h5><%=@p2_1.full_name%>:<%=@p1[1]%>|<%=@p2[1]%>:<%=@p2_2%></br>
+    <h5><%=@p3_1.full_name%>:<%=@p1[2]%>|<%=@p2[2]%>:<%=@p3_2%></br>
+    <h5><%=@p4_1.full_name%>:<%=@p1[3]%>|<%=@p2[3]%>:<%=@p4_2%></br>
+    <h5><%=@p5_1.full_name%>:<%=@p1[4]%>|<%=@p2[4]%>:<%=@p5_2%></br>
+    </br>
+    </br>
+    <h1><%=@u1%>:<%=@u2%></h1>
+
+    <%=button_to "Homepage", homepage_path, method: :get%>
+    <%=button_to "Sim Games", sim_path, method: :get%>
+</div>

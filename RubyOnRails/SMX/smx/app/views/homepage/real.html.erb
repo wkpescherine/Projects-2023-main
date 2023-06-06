@@ -1,0 +1,12 @@
+<div style="text-align:center;">
+    <h1>Players currently online to play </h1>
+
+    <%@users.each do |user|%>
+        <li>
+            <%=link_to user.username, "/homepage/game", {:style=>'color:#FFFFFF;', :class => "css_class"}%>
+        </li>
+    <%end%>
+
+    <%=button_to "Homepage", homepage_path, method: :get%>
+    
+</div>

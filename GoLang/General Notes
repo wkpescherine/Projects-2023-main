@@ -1,0 +1,7 @@
+General notes on go
+--------------------
+To run code need to use the following command
+    go run main.go
+Will tend to have every code snippet be from the main.go file
+Constants same as any other just that dont need to cast it 
+    until it is beig used

@@ -1,0 +1,16 @@
+<div style="text-align: center;">
+    <h5 style="font-size:25px">This is where the sim game is played</h5>
+    </br>
+    <h5 style="font-size:20px"><%=@user1.username%> vs  <%=@user2.username%><h5>
+    </br>
+    <h5 style="font-size:15px">Pick your team and see how you do <h5>
+
+    <%=form_for @simgames do |f| %>
+        <%=f.collection_select(:u1p1_id, @players, :id, :full_name, prompt:"Select Player")%></br>
+        <%=f.collection_select(:u1p2_id, @players, :id, :full_name, prompt:"Select Player")%></br>
+        <%=f.collection_select(:u1p3_id, @players, :id, :full_name, prompt:"Select Player")%></br>
+        <%=f.collection_select(:u1p4_id, @players, :id, :full_name, prompt:"Select Player")%></br>
+        <%=f.collection_select(:u1p5_id, @players, :id, :full_name, prompt:"Select Player")%></br>
+        <%=f.submit "Start sim"%>
+    <%end%>
+</div>

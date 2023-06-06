@@ -1,0 +1,49 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Robo2",
+            "request": "launch",
+            "mainClass": "Robo2",
+            "projectName": "Projects-2023_a7b05a2a"
+        },
+        {
+            "type": "java",
+            "name": "Robo",
+            "request": "launch",
+            "mainClass": "Robo",
+            "projectName": "Projects-2023_a7b05a2a"
+        },
+        {
+            "type": "java",
+            "name": "Bot",
+            "request": "launch",
+            "mainClass": "Bot",
+            "projectName": "Projects-2023_a7b05a2a"
+        },
+        {
+            "type": "java",
+            "name": "Hotd",
+            "request": "launch",
+            "mainClass": "Hotd",
+            "projectName": "Projects-2023_a7b05a2a"
+        },
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Languages/cSharp/testapp/bin/Debug/net6.0/testapp.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Languages/cSharp/testapp",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}

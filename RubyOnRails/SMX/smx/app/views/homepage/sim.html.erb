@@ -1,0 +1,9 @@
+<div style="text-align:center;">
+    <h4>Players currently online to play </h4>
+
+    <%@users.each do |user|%>
+        <li>
+            <%=link_to user.username, "/homepage/simgame/#{user.id}", :style=>'color: #FF8C00;'%>
+        </li>
+    <%end%>
+</div>

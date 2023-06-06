@@ -1,0 +1,41 @@
+Zero Paradigm 
+
+This is to help in designing Zero Website applications.
+
+Using a text editor we will be creating a document that will be used by the browser. But we will nto be using normal extensions for the document. When saving we will be using a new extension called .zero and this will be used when we look to parse.
+
+Zero basic structures that will be used:
+___________________________________________________
+
+Zero;                               ****All zero files must contain this
+p(name,100,50, none);               ****p() indicate a new panel area **** name acts like class
+name(t("This is a string text"));   ****can now use name from abouve to fine its parent  ***t()text
+name(p(subName, 40,30, white));     ****same here as it shows it now has 2 subpanels
+name(p(subName, 40,30, white));     ****can have mutliple of the same name as it links to parent p()
+name(b("Enter", action{NULL}));     ****b() indicates button and action is what it can do
+
+Since sectiomns are linked by name files do not nee to be linear in programming
+Here is an example of how I can have non linear.
+
+Zero(testsite);                     ****Thinking to include site name in file to allow for indexing
+p(case1, 200, 150, none);
+p(case2, 200, 150, none);
+p(case3, 400, 400, white);
+.case1(t("Welcome to new site"));
+.case2(t("This is a what we cna do design wize"));
+.case3(p(subcase1, 20, 400, red));
+.case3(t("This can be a massive amount of text that takes up most the area"));
+.case3(b("Go to next page", action{load.testsite.section2.zero}));
+
+the "." is used to denote that it is a name of an elemnt
+    also by having the "." as part of the naming allows me to add it into action
+        sample - load.testsite.case3.nextsection.java
+            load - is the type of action
+            testsite - is the name of the site
+            .case3 - this can indicate to only rerender that particular section
+            .nextsection - is the name of the section to be added into the previous part
+            .zero - this can be used as a check(this part can be in question)
+p() t() b() are all elements
+
+Order of .case will matter as system will take FIFO and build out from there
+So case will always be NULL if no case or sub element attached to the main element

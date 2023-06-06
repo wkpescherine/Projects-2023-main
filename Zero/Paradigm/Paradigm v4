@@ -1,0 +1,48 @@
+Zero Paradigm 
+____________________________________________________________________________________________
+Section 1:
+    1.1 Overview
+        This is to help in designing Zero Website applications.
+
+        Using a text editor we will be creating a document that will be used by the browser. But we will
+        nto be using normal extensions for the document. When saving we will be using a new extension
+        called .zero and this will be used when we look to parse.
+
+        Zero basic structures that will be used:
+____________________________________________________________________________________________
+Section 2
+    2.1 Components
+        Zero;                               **** All zero files must contain this
+        p(Name,Width,Height, Color);        **** p() indicate a new panel area
+        t(text_string)                      **** t() this is used for any text
+        b(text_name, action{NULL});         **** b() indicates button and action is what it can do
+        i(img_file);                        **** i() tag that will be used to load an image 
+
+    2.2 Definitions:
+        Name        : This is the name to be used on pulling in other features or sections
+        Width       : This is the width by %, this will allow for variance in the window views
+        Height      : This is the height by %, this will allow for variance in the window views
+        Color       : This will be passed into any of section as a hex value
+        string_text : Standard text string that will require to be encloded by ""
+        img_file    : This will be the name of the image file as well as extention
+____________________________________________________________________________________________
+
+Since sectiomns are linked by name files do not need to be linear in programming
+
+Handling color on the code Side we can try the following items
+
+Color myColor = Color.decode("#6365ff");
+ or
+Color redColor = new Color(255,0,0);
+
+name(p(subName, 40,30, white));     ****same here as it shows it now has 2 subpanels
+name(p(subName, 40,30, white));     ****can have mutliple of the same name as it links to parent p()
+name(b("Enter", action{NULL}));     ****b() indicates button and action is what it can do
+
+group_name - This is used to group all things together and called later for adding other lements to
+        a particular group name or NULL
+
+group_name(elemnet(params))
+            group_name - this will be pulled from the p and allows for nesting
+            element - is the p or t elelemnt that will be added to the given group_name
+            params = are the corresponding elemnt params that we have setup for the given elemnet

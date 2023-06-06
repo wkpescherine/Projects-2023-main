@@ -1,0 +1,11 @@
+Creating a file
+    <file_name>.ex
+Must always have a defmodule <modulename> do, with an end
+then use def <function_name> do and then end
+    Run code block between the do and end
+To execute do
+    iex
+    c("<filename>.ex")
+    <Filename>.<function_name_from_filename>
+Variables have no type casting, String require the ""
+    No limit to the top of what a int or float can be

@@ -1,0 +1,9 @@
+This is a Ruby on Raiuls full stck application that was built
+over the course of a week. All work wa done by just nme during 
+a bootcamp.
+
+Can get it to run by doing:
+Go to the root folder and do:
+bin/rails server
+Then in browser go to:
+localhost:3000/homepage

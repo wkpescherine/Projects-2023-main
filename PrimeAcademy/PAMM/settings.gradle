@@ -1,0 +1,2 @@
+rootProject.name = "PAMM"
+include ':app'

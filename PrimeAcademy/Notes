@@ -1,0 +1,52 @@
+TO DO LIST for v2
+---------
+1.0)  Profile: Start to work on the text handling for the username
+1.1)  Profile: Add a Data point for timed challenge, fastest
+1.2)  Profile: Need to fix the calculation to be only to the 2nd decimal
+2.0)  Timed: Start building out the Timed Question logic
+2.1)  Timed: Mostlike need to have a new thread for timer  on timed Questions
+3.0)  General: Expand tiers to include 7th and 8th grade, adds 20 tiers
+3.1)  General: Start to expand the complexity of the math
+3.2)  General: Add in Section for ads to be placed on dashboard
+3.3)  General: Add in Section for ads to be placed on challenge screen
+3.4)  General: Add in Section for ads to be placed on Q20 screen
+3.5)  General: Add in Section for ads to be placed on practice
+3.6)  General: Add in Section for ads to be placed on profile
+4.0)  Builder: Start to build out the formula builder
+5.0)  Q20: Look to add more levels of complexity and difficulty
+6.0)  GradeChallenge: Need adjust the subtraction at lower levels
+6.1)  GradeChallenge: Startadding inthe logic for order of operation formulas
+6.2)  GradeChallenge: Start to add parenthesis
+
+DONE
+---------
+______________________________________________________________________________________
+
+TO DO LIST for v1
+---------
+
+DONE
+---------
+1.0)  Need to fix the Profile UI as this is still a mess - DONE
+2.0)  Need to fix that the profile button is not working - DONE
+3.0)  Need to fix that the username goes to the profile = DONE
+4.0)  Need to get the logic for handling challenge changes to UI - DONE
+5.0)  Need to work on 20q logic - DONE
+5.1)  Work on how to calculate the points - DONE
+6.0)  Need to build out Profile UI - DONE
+7.0)  Need to add a font for all text, and change font color to ffa500. - DONE
+8.0)  Profile: Start to add the various data points into the profile section - DONE
+8.1)  Issue with the calculation for % correct - DONE
+8.3)  Add a data point for highest tier - DONE
+8.4)  Add a data point for highest score - DONE
+10.0) Need to review the solutions file for ahndling the decimal points - DONE
+10.1) Need to have the decimal point go out only to the 3rd value - DONE
+11.0) Data needs to be saved for the questions after every question - DONE
+12.0) Need to review the check Tier handling function - DONE
+13.0) Profile: Move the Reset button from the Main to the Profile - DONE
+13.1) Profile: Reset does clear, but does not update the UI - DONE
+14.0) Practice: Work on the Practice Question Screen - DONE
+14.1) Practice: Need to add game logic - DONE
+14.2) Practice: Need to better handle changing Tiers - DONE
+14.3) Practice: Issues with the chnaging tier especially on the plus side - DONE
+16.0) Main: Delete the reset button from main screen as well as code - DONE

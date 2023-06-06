@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Practice"
+    android:orientation="vertical"
+    android:background="@drawable/chalkboard">
+
+    <TextView
+        android:id="@+id/practiceTier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tier: 0"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:textColor="#ffa500"
+        android:textSize="16dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/pracFormulaString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:fontFamily="@font/gloria_hallelujah"
+            android:textColor="#ffa500"
+            android:textSize="48dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:fontFamily="@font/gloria_hallelujah"
+        android:textColor="#ffa500"
+        android:textSize="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="25dp"
+        />
+
+    <TextView
+        android:id="@+id/cresponse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:fontFamily="@font/gloria_hallelujah"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffa500"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:layout_margin="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gloria_hallelujah"
+            android:backgroundTint="#ffa500"
+            android:textColor="#555"
+            android:text="Tier -"
+            android:onClick="decreaseTier"/>
+        <Button
+            android:layout_margin="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gloria_hallelujah"
+            android:backgroundTint="#ffa500"
+            android:textColor="#555"
+            android:text="Tier +"
+            android:onClick="increaseTier"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Solution"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:backgroundTint="#ffa500"
+        android:onClick="checkPracSolution"
+        android:textColor="#555"/>
+
+    <include layout="@layout/keypadui"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="backToDashboard"
+        android:layout_gravity="center"
+        android:text="Back to Dashboard"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:backgroundTint="#ffa500"
+        android:textColor="#555"/>
+
+</LinearLayout>

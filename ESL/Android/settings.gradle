@@ -1,0 +1,2 @@
+rootProject.name = "ESL"
+include ':app'

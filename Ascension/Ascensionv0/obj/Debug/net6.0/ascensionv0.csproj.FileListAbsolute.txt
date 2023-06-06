@@ -1,0 +1,15 @@
+/Users/wkpescherine/Desktop/Projects-2023/Ascension/Ascensionv0/bin/Debug/net6.0/ascensionv0
+/Users/wkpescherine/Desktop/Projects-2023/Ascension/Ascensionv0/bin/Debug/net6.0/ascensionv0.deps.json
+/Users/wkpescherine/Desktop/Projects-2023/Ascension/Ascensionv0/bin/Debug/net6.0/ascensionv0.runtimeconfig.json
+/Users/wkpescherine/Desktop/Projects-2023/Ascension/Ascensionv0/bin/Debug/net6.0/ascensionv0.dll
+/Users/wkpescherine/Desktop/Projects-2023/Ascension/Ascensionv0/bin/Debug/net6.0/ascensionv0.pdb
+/Users/wkpescherine/Desktop/Projects-2023/Ascension/Ascensionv0/obj/Debug/net6.0/ascensionv0.csproj.AssemblyReference.cache
+/Users/wkpescherine/Desktop/Projects-2023/Ascension/Ascensionv0/obj/Debug/net6.0/ascensionv0.GeneratedMSBuildEditorConfig.editorconfig
+/Users/wkpescherine/Desktop/Projects-2023/Ascension/Ascensionv0/obj/Debug/net6.0/ascensionv0.AssemblyInfoInputs.cache
+/Users/wkpescherine/Desktop/Projects-2023/Ascension/Ascensionv0/obj/Debug/net6.0/ascensionv0.AssemblyInfo.cs
+/Users/wkpescherine/Desktop/Projects-2023/Ascension/Ascensionv0/obj/Debug/net6.0/ascensionv0.csproj.CoreCompileInputs.cache
+/Users/wkpescherine/Desktop/Projects-2023/Ascension/Ascensionv0/obj/Debug/net6.0/ascensionv0.dll
+/Users/wkpescherine/Desktop/Projects-2023/Ascension/Ascensionv0/obj/Debug/net6.0/refint/ascensionv0.dll
+/Users/wkpescherine/Desktop/Projects-2023/Ascension/Ascensionv0/obj/Debug/net6.0/ascensionv0.pdb
+/Users/wkpescherine/Desktop/Projects-2023/Ascension/Ascensionv0/obj/Debug/net6.0/ascensionv0.genruntimeconfig.cache
+/Users/wkpescherine/Desktop/Projects-2023/Ascension/Ascensionv0/obj/Debug/net6.0/ref/ascensionv0.dll

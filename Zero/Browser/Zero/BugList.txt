@@ -1,0 +1,8 @@
+    BUG LIST
+--------------------------------
+1) There is an issue in reading from the emailsDB.txt that causes a NPE
+    a) Null Pointer Exception points to line 191 in
+        i) Steps Log in > mail > inbox
+2) emails have the person recieving as the person sending
+3) Need to add correct times to the received email item in the list
+4) MailView the loop for building multiple pages is not working

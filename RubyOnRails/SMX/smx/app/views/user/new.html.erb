@@ -1,0 +1,18 @@
+<div style="text-align:center;padding-top:10px;">
+     <h2>SPORTSMATRIX</h2>
+
+          <%if flash[:message]%>
+               <h3><%=flash[:message]%></h3>
+          <%end%>
+
+     <%=form_for @user do |f|%>
+          <h5>Full Name<%=f.text_field :full_name%></h5> 
+          <h5>Team Name<%=f.text_field :team_name%></h5> 
+          <h5>Username<%=f.text_field :username%></h5> 
+          <h5>Password<%=f.text_field :password%></h5> 
+          <h5>Email<%=f.text_field :email%></h5> 
+          <h5>Amount<%=f.number_field :amount%></br></h5> 
+          <%=f.submit "submit" %>
+     <%end%>
+     
+</div>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Challenge"
+    android:orientation="vertical"
+    android:background="@drawable/chalkboard">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/standardHeader"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:id="@+id/cgrade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grade"
+            android:fontFamily="@font/gloria_hallelujah"
+            android:layout_marginRight="25dp"
+            android:textColor="#ffa500"/>
+        <TextView
+            android:id="@+id/ctier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tier"
+            android:fontFamily="@font/gloria_hallelujah"
+            android:layout_marginRight="25dp"
+            android:textColor="#ffa500"/>
+        <TextView
+            android:id="@+id/csolve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Solved"
+            android:fontFamily="@font/gloria_hallelujah"
+            android:textColor="#ffa500"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/q20Header"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/q20Questions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 of 20"
+            android:fontFamily="@font/gloria_hallelujah"
+            android:layout_marginRight="25dp"
+            android:textColor="#ffa500"/>
+        <TextView
+            android:id="@+id/q20QuestionsCorrect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correct: 0"
+            android:fontFamily="@font/gloria_hallelujah"
+            android:layout_marginRight="25dp"
+            android:textColor="#ffa500"/>
+        <TextView
+            android:id="@+id/q20Points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Points: 0"
+            android:fontFamily="@font/gloria_hallelujah"
+            android:textColor="#ffa500"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/number1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:fontFamily="@font/gloria_hallelujah"
+            android:textColor="#ffa500"
+            android:textSize="64dp" />
+        <TextView
+            android:id="@+id/symbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:fontFamily="@font/gloria_hallelujah"
+            android:textColor="#ffa500"
+            android:textSize="64dp" />
+        <TextView
+            android:id="@+id/number2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:fontFamily="@font/gloria_hallelujah"
+            android:textColor="#ffa500"
+            android:textSize="64dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:fontFamily="@font/gloria_hallelujah"
+        android:textColor="#ffa500"
+        android:textSize="64dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="25dp"
+        />
+
+    <TextView
+        android:id="@+id/cresponse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:fontFamily="@font/gloria_hallelujah"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffa500"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Solution"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:backgroundTint="#ffa500"
+        android:onClick="checkSolution"
+        android:textColor="#555"/>
+
+    <include layout="@layout/keypadui"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="backToDashboard"
+        android:layout_gravity="center"
+        android:text="Back to Dashboard"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:backgroundTint="#ffa500"
+        android:textColor="#555"/>
+
+</LinearLayout>

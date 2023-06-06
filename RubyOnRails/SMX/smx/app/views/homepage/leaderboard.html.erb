@@ -1,0 +1,14 @@
+<div style="text-align:center;">
+    <h3 style="font-size:35px;">Current Leaderboard</h3>
+    <%number = 1%>
+
+    <%sorted = @users.all.sort_by{|user| user.amount}.reverse%>
+    <%sorted.each do |user|%>
+        <ul>
+            <h4><%="#{number}.#{user.username}:#{user.amount}"%></br></h3>
+        </ul>
+        <%number = number +1%>
+    <%end%>
+
+    <%=button_to "Homepage", homepage_path, method: :get%>
+</div>

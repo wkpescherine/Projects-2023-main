@@ -1,0 +1,15 @@
+/Users/wkpescherine/Desktop/Projects-2023/Languages/cSharp/testapp/bin/Debug/net6.0/testapp
+/Users/wkpescherine/Desktop/Projects-2023/Languages/cSharp/testapp/bin/Debug/net6.0/testapp.deps.json
+/Users/wkpescherine/Desktop/Projects-2023/Languages/cSharp/testapp/bin/Debug/net6.0/testapp.runtimeconfig.json
+/Users/wkpescherine/Desktop/Projects-2023/Languages/cSharp/testapp/bin/Debug/net6.0/testapp.dll
+/Users/wkpescherine/Desktop/Projects-2023/Languages/cSharp/testapp/bin/Debug/net6.0/testapp.pdb
+/Users/wkpescherine/Desktop/Projects-2023/Languages/cSharp/testapp/obj/Debug/net6.0/testapp.csproj.AssemblyReference.cache
+/Users/wkpescherine/Desktop/Projects-2023/Languages/cSharp/testapp/obj/Debug/net6.0/testapp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/wkpescherine/Desktop/Projects-2023/Languages/cSharp/testapp/obj/Debug/net6.0/testapp.AssemblyInfoInputs.cache
+/Users/wkpescherine/Desktop/Projects-2023/Languages/cSharp/testapp/obj/Debug/net6.0/testapp.AssemblyInfo.cs
+/Users/wkpescherine/Desktop/Projects-2023/Languages/cSharp/testapp/obj/Debug/net6.0/testapp.csproj.CoreCompileInputs.cache
+/Users/wkpescherine/Desktop/Projects-2023/Languages/cSharp/testapp/obj/Debug/net6.0/testapp.dll
+/Users/wkpescherine/Desktop/Projects-2023/Languages/cSharp/testapp/obj/Debug/net6.0/refint/testapp.dll
+/Users/wkpescherine/Desktop/Projects-2023/Languages/cSharp/testapp/obj/Debug/net6.0/testapp.pdb
+/Users/wkpescherine/Desktop/Projects-2023/Languages/cSharp/testapp/obj/Debug/net6.0/testapp.genruntimeconfig.cache
+/Users/wkpescherine/Desktop/Projects-2023/Languages/cSharp/testapp/obj/Debug/net6.0/ref/testapp.dll

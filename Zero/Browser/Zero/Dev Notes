@@ -1,0 +1,39 @@
+List of To Do Items
+--------------------
+2) Build log in logic
+    a) Build the check to look at a file
+        I) Start with the logic to handle the login on local value
+        II) Start to add logic for looking at a local file
+        III) Build the logic for connecting to a DB and validating
+3) Build out the logic for creating account
+    a) Build out the logic for getting the data
+        I) Build the logic for it to be written to a local temp file
+        II) Build the logic for this to be written to a DB
+4) Build out the mail inbox to include 10 messages
+    a)Build out the logic for filling the inbox
+    b)Build out the logic for the "Next" button
+    c)Build out the logic for the "Previous" button
+    d)Build out the logic for multiple pages(BROKEN AT THE MOMENT)
+    e)Build out the logic for displaying messages
+        I) Build out logic for better displaying text wrap
+5) Start to build out the logic for searching for a site
+    a)Work on the reflection to get site to adapt
+    b)Keep adding to the logic for building out the sites
+6) Build out more of the Paradigm
+    a)Need to look at how to build paradigm for quick parsing
+7) Create a home page for starting up
+9) Build out the about section
+    a) Build out brief description to be used from the startViuew
+    a) Build out brief description mainView ABOUT what the idea is behidn this
+10) Build out the settings section
+    a) Allowing the view port size to be modified
+    b) Displaying certain data for users
+        I) Display version
+        II) Display temp Id
+        III) Display date and time
+    c) Allowing of modifying of user data
+        I) Creating an interface that will allow users to modify account
+13) Build out the config file and management system for it
+    b) Need to figure out the data stored in here
+14) Handle panel switching within the main section.
+    a) Cleaning of sections between changes

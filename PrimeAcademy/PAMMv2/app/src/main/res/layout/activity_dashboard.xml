@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard"
+    android:orientation="vertical"
+    android:background="@drawable/chalkboard">
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:fontFamily="@font/gloria_hallelujah"
+        android:layout_gravity="center_horizontal"
+        android:textSize="32dp"
+        android:textColor="#ffa500"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:id="@+id/dgrade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grade"
+            android:fontFamily="@font/gloria_hallelujah"
+            android:layout_marginRight="25dp"
+            android:textColor="#ffa500"/>
+        <TextView
+            android:id="@+id/dtier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gloria_hallelujah"
+            android:text="Tier"
+            android:layout_marginLeft="25dp"
+            android:textColor="#ffa500"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Start Grade Challenge"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#ffa500"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:textColor="#555"
+        android:onClick="clickToChallenge"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="20 Questions Challenge"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#ffa500"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:textColor="#555"
+        android:onClick="clickTo20Questions"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Practice Questions"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#ffa500"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:textColor="#555"
+        android:onClick="clickPracticeQuestions"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Timed Challenge"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#ffa500"
+        android:textColor="#555"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:onClick="clickToTimed"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#fff"
+            android:text="Profile"
+            android:fontFamily="@font/gloria_hallelujah"
+            android:textAlignment="center"
+            android:paddingTop="20dp"
+            android:backgroundTint="#ffa500"
+            android:textColor="#555"
+            android:onClick="clickToProfile"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXIT"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#ffa500"
+        android:textColor="#555"
+        android:onClick="clickToExit"
+        />
+
+</LinearLayout>

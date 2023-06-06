@@ -1,0 +1,6 @@
+Zero;
+p(name,100,50, none);
+.name(t("This is a string text"));
+.name(p(subName, 40,30, white));
+.name(p(subName, 40,30, white));
+.name(b("Enter", action{NULL}));

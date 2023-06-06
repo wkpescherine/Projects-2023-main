@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/wkpescherine/Desktop/Projects-2023/Languages/cSharp/testapp/testapp.csproj": {}
+  },
+  "projects": {
+    "/Users/wkpescherine/Desktop/Projects-2023/Languages/cSharp/testapp/testapp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/wkpescherine/Desktop/Projects-2023/Languages/cSharp/testapp/testapp.csproj",
+        "projectName": "testapp",
+        "projectPath": "/Users/wkpescherine/Desktop/Projects-2023/Languages/cSharp/testapp/testapp.csproj",
+        "packagesPath": "/Users/wkpescherine/.nuget/packages/",
+        "outputPath": "/Users/wkpescherine/Desktop/Projects-2023/Languages/cSharp/testapp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/wkpescherine/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
